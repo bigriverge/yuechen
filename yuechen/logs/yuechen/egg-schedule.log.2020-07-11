@@ -1,0 +1,18 @@
+2020-07-09 21:27:43,469 INFO 59090 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 25336539ms at 2020-07-10 04:30:00.008
+2020-07-09 21:27:43,469 INFO 59716 [Job#15943012634561851851789520031] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-07-09 21:27:43,481 INFO 59716 [Job#15943012634561851851789520031] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 11ms
+2020-07-10 22:21:47,947 INFO 59716 [Job#15943909079322105217343213702] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-07-10 22:21:47,958 INFO 59716 [Job#15943909079322105217343213702] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 9ms
+2020-07-10 22:21:47,945 INFO 59090 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22092064ms at 2020-07-11 04:30:00.008
+2020-07-11 22:23:13,938 INFO 59090 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22006077ms at 2020-07-12 04:30:00.014
+2020-07-11 22:23:13,940 INFO 59716 [Job#15944773939152326138223686103] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-07-11 22:23:13,957 INFO 59716 [Job#15944773939152326138223686103] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 12ms
+2020-07-12 13:41:31,434 INFO 59090 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 53308579ms at 2020-07-13 04:30:00.012
+2020-07-12 13:41:31,432 INFO 59716 [Job#15945324914152546199293982584] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-07-12 13:41:31,445 INFO 59716 [Job#15945324914152546199293982584] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 10ms
+2020-07-12 13:54:16,652 INFO 59716 [Job#15945332566492553851545463832] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-07-12 13:54:16,662 INFO 59090 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36343348ms at 2020-07-13 00:00:00.010
+2020-07-12 13:54:16,695 INFO 59716 [Job#15945332566492553851545463832] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 39ms
+2020-07-12 13:54:17,657 INFO 59716 [Job#15945332576492553861545730202] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-07-12 13:54:17,666 INFO 59716 [Job#15945332576492553861545730202] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 9ms
+2020-07-12 13:54:17,667 INFO 59090 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36343346ms at 2020-07-13 00:00:01.013

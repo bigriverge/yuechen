@@ -1,0 +1,126 @@
+2020-06-16 00:01:59,864 INFO 1209 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:01:59,864 INFO 1209 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:01:59,864 INFO 1209 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:02:08,941 INFO 1236 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:02:08,941 INFO 1236 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:02:08,941 INFO 1236 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:02:09,335 INFO 1234 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 16070667ms at 2020-06-16 04:30:00.002
+2020-06-16 00:02:09,336 INFO 1234 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86270665ms at 2020-06-17 00:00:00.001
+2020-06-16 00:02:09,337 INFO 1234 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86271664ms at 2020-06-17 00:00:01.001
+2020-06-16 00:03:54,781 INFO 1309 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:03:54,781 INFO 1309 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:03:54,781 INFO 1309 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:04:01,009 INFO 1328 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:04:01,009 INFO 1328 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:04:01,009 INFO 1328 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:04:23,822 INFO 1353 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:04:23,822 INFO 1353 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:04:23,822 INFO 1353 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:04:24,199 INFO 1348 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 15935803ms at 2020-06-16 04:30:00.002
+2020-06-16 00:04:24,200 INFO 1348 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86135801ms at 2020-06-17 00:00:00.001
+2020-06-16 00:04:24,205 INFO 1348 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86136800ms at 2020-06-17 00:00:01.005
+2020-06-16 00:05:34,985 INFO 1406 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:05:34,985 INFO 1406 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:05:34,985 INFO 1406 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:06:10,540 INFO 1427 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:06:10,540 INFO 1427 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:06:10,540 INFO 1427 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:06:36,997 INFO 1463 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 15803005ms at 2020-06-16 04:30:00.002
+2020-06-16 00:06:36,998 INFO 1463 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86003003ms at 2020-06-17 00:00:00.001
+2020-06-16 00:06:37,002 INFO 1463 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86004002ms at 2020-06-17 00:00:01.002
+2020-06-16 00:06:36,751 INFO 1469 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:06:36,751 INFO 1469 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:06:36,751 INFO 1469 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:11:20,396 INFO 1601 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:11:20,396 INFO 1601 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:11:20,396 INFO 1601 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:11:41,310 INFO 1642 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:11:41,310 INFO 1642 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:11:41,310 INFO 1642 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:11:41,693 INFO 1639 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 15498309ms at 2020-06-16 04:30:00.002
+2020-06-16 00:11:41,694 INFO 1639 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85698307ms at 2020-06-17 00:00:00.001
+2020-06-16 00:11:41,695 INFO 1639 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85699306ms at 2020-06-17 00:00:01.001
+2020-06-16 00:12:45,824 INFO 1696 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:12:45,824 INFO 1696 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:12:45,824 INFO 1696 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:12:54,398 INFO 1725 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 15425604ms at 2020-06-16 04:30:00.002
+2020-06-16 00:12:54,400 INFO 1725 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85625601ms at 2020-06-17 00:00:00.001
+2020-06-16 00:12:54,403 INFO 1725 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85626600ms at 2020-06-17 00:00:01.003
+2020-06-16 00:12:54,149 INFO 1731 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:12:54,149 INFO 1731 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:12:54,149 INFO 1731 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:14:24,865 INFO 1801 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:14:24,865 INFO 1801 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:14:24,865 INFO 1801 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:15:19,080 INFO 1838 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:15:19,080 INFO 1838 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:15:19,080 INFO 1838 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:15:26,551 INFO 1864 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 00:15:26,551 INFO 1864 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 00:15:26,551 INFO 1864 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-16 00:15:26,933 INFO 1862 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 15273068ms at 2020-06-16 04:30:00.001
+2020-06-16 00:15:26,934 INFO 1862 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85473067ms at 2020-06-17 00:00:00.001
+2020-06-16 00:15:26,935 INFO 1862 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85474066ms at 2020-06-17 00:00:01.001
+2020-06-16 23:24:23,281 INFO 6577 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-16 23:24:23,281 INFO 6577 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-16 23:24:23,281 INFO 6577 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-17 13:09:56,868 INFO 8531 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-17 13:09:56,868 INFO 8531 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-17 13:09:56,868 INFO 8531 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-17 13:10:04,157 INFO 8558 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 55195846ms at 2020-06-18 04:30:00.003
+2020-06-17 13:10:04,157 INFO 8558 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 38995843ms at 2020-06-18 00:00:00.000
+2020-06-17 13:10:04,158 INFO 8558 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 38996843ms at 2020-06-18 00:00:01.001
+2020-06-17 13:10:03,903 INFO 8560 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-17 13:10:03,903 INFO 8560 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-17 13:10:03,903 INFO 8560 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-17 13:31:29,814 INFO 9107 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-17 13:31:29,814 INFO 9107 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-17 13:31:29,814 INFO 9107 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-17 13:33:29,416 INFO 9154 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-17 13:33:29,416 INFO 9154 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-17 13:33:29,416 INFO 9154 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-17 13:34:28,844 INFO 9183 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 53731159ms at 2020-06-18 04:30:00.003
+2020-06-17 13:34:28,844 INFO 9183 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 37531156ms at 2020-06-18 00:00:00.000
+2020-06-17 13:34:28,844 INFO 9183 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 37532156ms at 2020-06-18 00:00:01.000
+2020-06-17 13:34:28,581 INFO 9187 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-17 13:34:28,581 INFO 9187 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-17 13:34:28,581 INFO 9187 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 22:09:57,404 INFO 17869 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 22:09:57,404 INFO 17869 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 22:09:57,404 INFO 17869 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 22:09:57,874 INFO 17867 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22802130ms at 2020-06-19 04:30:00.004
+2020-06-18 22:09:57,874 INFO 17867 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6602126ms at 2020-06-19 00:00:00.000
+2020-06-18 22:09:57,875 INFO 17867 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6603126ms at 2020-06-19 00:00:01.001
+2020-06-18 22:37:26,318 INFO 18470 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 22:37:26,318 INFO 18470 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 22:37:26,318 INFO 18470 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 22:42:39,846 INFO 18612 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 22:42:39,846 INFO 18612 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 22:42:39,846 INFO 18612 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 22:57:17,416 INFO 18933 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 22:57:17,416 INFO 18933 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 22:57:17,416 INFO 18933 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 23:12:25,933 INFO 19273 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 23:12:25,933 INFO 19273 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 23:12:25,933 INFO 19273 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 23:12:26,372 INFO 19269 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 19053630ms at 2020-06-19 04:30:00.002
+2020-06-18 23:12:26,373 INFO 19269 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2853627ms at 2020-06-19 00:00:00.000
+2020-06-18 23:12:26,373 INFO 19269 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2854627ms at 2020-06-19 00:00:01.000
+2020-06-18 23:19:16,157 INFO 19450 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 23:19:16,157 INFO 19450 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 23:19:16,157 INFO 19450 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 23:20:09,963 INFO 19517 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 23:20:09,963 INFO 19517 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 23:20:09,963 INFO 19517 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 23:20:10,377 INFO 19514 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18589624ms at 2020-06-19 04:30:00.001
+2020-06-18 23:20:10,377 INFO 19514 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 2389623ms at 2020-06-19 00:00:00.000
+2020-06-18 23:20:10,378 INFO 19514 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2390623ms at 2020-06-19 00:00:01.001
+2020-06-18 23:21:02,120 INFO 19567 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 23:21:02,120 INFO 19567 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 23:21:02,120 INFO 19567 [egg-schedule]: register schedule /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-19 08:20:14,939 INFO 19514 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 56385065ms at 2020-06-20 00:00:00.004
+2020-06-19 08:20:14,936 INFO 19567 [Job#1592526014935419732948484161] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-06-19 08:20:14,952 INFO 19567 [Job#1592526014935419732948484161] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 15ms
+2020-06-19 08:20:15,933 INFO 19567 [Job#1592526015932419742922864861] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-06-19 08:20:15,940 INFO 19567 [Job#1592526015932419742922864861] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 7ms
+2020-06-19 08:20:15,937 INFO 19514 [Timer] /Users/wangjiang/code/yuechen/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 56385067ms at 2020-06-20 00:00:01.004

@@ -1,0 +1,2 @@
+2020-07-13 10:51:44,389 INFO 59716 [egg-logrotator] app logger reload: got log-reload message
+2020-07-13 11:26:44,639 WARN 59716 [ClusterClient:Watcher] follower closed, and try to init it again

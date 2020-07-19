@@ -1,0 +1,57 @@
+2020-06-17 13:31:30,305 ERROR 9107 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:310:20)
+    at /Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/pool.js:561:14
+    at /Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/pool.js:994:11
+    at /Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/connect.js:31:7
+    at callback (/Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/connect.js:264:5)
+    at Socket.<anonymous> (/Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/connect.js:294:7)
+    at Object.onceWrapper (events.js:417:26)
+    at Socket.emit (events.js:310:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 9107
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 13:33:29,851 ERROR 9154 [-/127.0.0.1/-/0ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  name: 'MongoNetworkError',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}]
+    at Pool.<anonymous> (/Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:310:20)
+    at /Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/pool.js:561:14
+    at /Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/pool.js:994:11
+    at /Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/connect.js:31:7
+    at callback (/Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/connect.js:264:5)
+    at Socket.<anonymous> (/Users/wangjiang/code/yuechen/node_modules/mongodb/lib/core/connection/connect.js:294:7)
+    at Object.onceWrapper (events.js:417:26)
+    at Socket.emit (events.js:310:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+name: "MongoNetworkError"
+pid: 9154
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 23:20:40,536 ERROR 19517 [-/::1/-/18ms POST /api/update_user] nodejs.ReferenceError: onsole is not defined
+    at UserController.updateUser (/Users/wangjiang/code/yuechen/app/controller/user.js:57:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19517
+hostname: 192.168.0.115
+

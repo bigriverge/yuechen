@@ -1,0 +1,1205 @@
+2020-06-16 00:00:01,026 INFO 1084 [egg-logrotator] agent logger reload: got log-reload message
+2020-06-16 00:01:57,979 INFO 1084 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1727,"blocks":8,"atimeMs":1592235928642.826,"mtimeMs":1592236917913.236,"ctimeMs":1592236917913.236,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T15:45:28.643Z","mtime":"2020-06-15T16:01:57.913Z","ctime":"2020-06-15T16:01:57.913Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:01:58,134 INFO 1084 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1727,"blocks":8,"atimeMs":1592236918122.3052,"mtimeMs":1592236918122.9836,"ctimeMs":1592236918122.9836,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:01:58.122Z","mtime":"2020-06-15T16:01:58.123Z","ctime":"2020-06-15T16:01:58.123Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:01:58,185 INFO 1084 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1727,"blocks":8,"atimeMs":1592236918122.3052,"mtimeMs":1592236918122.9836,"ctimeMs":1592236918122.9836,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:01:58.122Z","mtime":"2020-06-15T16:01:58.123Z","ctime":"2020-06-15T16:01:58.123Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:01:58,300 INFO 1084 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1727,"blocks":8,"atimeMs":1592236918286.3496,"mtimeMs":1592236918287.8926,"ctimeMs":1592236918287.8926,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:01:58.286Z","mtime":"2020-06-15T16:01:58.288Z","ctime":"2020-06-15T16:01:58.288Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:01:58,554 WARN 1084 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-16 00:01:58,350 INFO 1084 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1727,"blocks":8,"atimeMs":1592236918286.3496,"mtimeMs":1592236918287.8926,"ctimeMs":1592236918287.8926,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:01:58.286Z","mtime":"2020-06-15T16:01:58.288Z","ctime":"2020-06-15T16:01:58.288Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:02:08,039 INFO 1234 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-16 00:02:08,046 INFO 1234 [egg:core] dump config after load, 3ms
+2020-06-16 00:02:08,124 INFO 1234 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-16 00:02:08,124 INFO 1234 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-16 00:02:08,124 INFO 1234 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-16 00:02:08,125 INFO 1234 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-16 00:02:08,125 INFO 1234 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-16 00:02:08,126 INFO 1234 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-16 00:02:08,127 INFO 1234 [egg-watcher:agent] watcher start success
+2020-06-16 00:02:08,144 INFO 1234 [egg:core] dump config after ready, 5ms
+2020-06-16 00:03:53,165 INFO 1234 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1763,"blocks":8,"atimeMs":1592236919015.1458,"mtimeMs":1592237033101.738,"ctimeMs":1592237033101.738,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:01:59.015Z","mtime":"2020-06-15T16:03:53.102Z","ctime":"2020-06-15T16:03:53.102Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:03:53,618 WARN 1234 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-16 00:03:53,368 INFO 1234 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1763,"blocks":8,"atimeMs":1592237033354.8623,"mtimeMs":1592237033355.595,"ctimeMs":1592237033355.595,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:03:53.355Z","mtime":"2020-06-15T16:03:53.356Z","ctime":"2020-06-15T16:03:53.356Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:03:53,417 INFO 1234 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1763,"blocks":8,"atimeMs":1592237033354.8623,"mtimeMs":1592237033355.595,"ctimeMs":1592237033355.595,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:03:53.355Z","mtime":"2020-06-15T16:03:53.356Z","ctime":"2020-06-15T16:03:53.356Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:04:00,106 WARN 1234 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-16 00:03:59,634 INFO 1234 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1778,"blocks":8,"atimeMs":1592237035172.231,"mtimeMs":1592237039622.7566,"ctimeMs":1592237039622.7566,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:03:55.172Z","mtime":"2020-06-15T16:03:59.623Z","ctime":"2020-06-15T16:03:59.623Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:03:59,685 INFO 1234 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1778,"blocks":8,"atimeMs":1592237035172.231,"mtimeMs":1592237039622.7566,"ctimeMs":1592237039622.7566,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:03:55.172Z","mtime":"2020-06-15T16:03:59.623Z","ctime":"2020-06-15T16:03:59.623Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:03:59,854 INFO 1234 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1778,"blocks":8,"atimeMs":1592237039842.04,"mtimeMs":1592237039842.7773,"ctimeMs":1592237039842.7773,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:03:59.842Z","mtime":"2020-06-15T16:03:59.843Z","ctime":"2020-06-15T16:03:59.843Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:03:59,904 INFO 1234 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1778,"blocks":8,"atimeMs":1592237039842.04,"mtimeMs":1592237039842.7773,"ctimeMs":1592237039842.7773,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:03:59.842Z","mtime":"2020-06-15T16:03:59.843Z","ctime":"2020-06-15T16:03:59.843Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:04:23,110 INFO 1348 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-16 00:04:23,117 INFO 1348 [egg:core] dump config after load, 2ms
+2020-06-16 00:04:23,149 INFO 1348 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-16 00:04:23,149 INFO 1348 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-16 00:04:23,150 INFO 1348 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-16 00:04:23,150 INFO 1348 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-16 00:04:23,150 INFO 1348 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-16 00:04:23,150 INFO 1348 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-16 00:04:23,150 INFO 1348 [egg-watcher:agent] watcher start success
+2020-06-16 00:04:23,161 INFO 1348 [egg:core] dump config after ready, 5ms
+2020-06-16 00:05:33,758 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1865,"blocks":8,"atimeMs":1592237041106.5588,"mtimeMs":1592237133695.415,"ctimeMs":1592237133695.415,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:04:01.107Z","mtime":"2020-06-15T16:05:33.695Z","ctime":"2020-06-15T16:05:33.695Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:05:33,942 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1865,"blocks":8,"atimeMs":1592237133930.6772,"mtimeMs":1592237133931.3496,"ctimeMs":1592237133931.3496,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:05:33.931Z","mtime":"2020-06-15T16:05:33.931Z","ctime":"2020-06-15T16:05:33.931Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:05:33,993 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1865,"blocks":8,"atimeMs":1592237133930.6772,"mtimeMs":1592237133931.3496,"ctimeMs":1592237133931.3496,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:05:33.931Z","mtime":"2020-06-15T16:05:33.931Z","ctime":"2020-06-15T16:05:33.931Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:05:34,121 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1865,"blocks":8,"atimeMs":1592237134107.9023,"mtimeMs":1592237134109.5784,"ctimeMs":1592237134109.5784,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:05:34.108Z","mtime":"2020-06-15T16:05:34.110Z","ctime":"2020-06-15T16:05:34.110Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:05:34,172 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1865,"blocks":8,"atimeMs":1592237134107.9023,"mtimeMs":1592237134109.5784,"ctimeMs":1592237134109.5784,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:05:34.108Z","mtime":"2020-06-15T16:05:34.110Z","ctime":"2020-06-15T16:05:34.110Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:05:34,377 WARN 1348 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-16 00:06:08,835 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1895,"blocks":8,"atimeMs":1592237135190.462,"mtimeMs":1592237168773.2827,"ctimeMs":1592237168773.2827,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:05:35.190Z","mtime":"2020-06-15T16:06:08.773Z","ctime":"2020-06-15T16:06:08.773Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:06:09,004 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1895,"blocks":8,"atimeMs":1592237168991.3318,"mtimeMs":1592237168992.093,"ctimeMs":1592237168992.093,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:06:08.991Z","mtime":"2020-06-15T16:06:08.992Z","ctime":"2020-06-15T16:06:08.992Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:06:09,055 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1895,"blocks":8,"atimeMs":1592237168991.3318,"mtimeMs":1592237168992.093,"ctimeMs":1592237168992.093,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:06:08.991Z","mtime":"2020-06-15T16:06:08.992Z","ctime":"2020-06-15T16:06:08.992Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:06:09,192 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1895,"blocks":8,"atimeMs":1592237169179.4983,"mtimeMs":1592237169180.259,"ctimeMs":1592237169180.259,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:06:09.179Z","mtime":"2020-06-15T16:06:09.180Z","ctime":"2020-06-15T16:06:09.180Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:06:09,242 INFO 1348 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1895,"blocks":8,"atimeMs":1592237169179.4983,"mtimeMs":1592237169180.259,"ctimeMs":1592237169180.259,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:06:09.179Z","mtime":"2020-06-15T16:06:09.180Z","ctime":"2020-06-15T16:06:09.180Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:06:09,445 WARN 1348 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-16 00:06:36,063 INFO 1463 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-16 00:06:36,071 INFO 1463 [egg:core] dump config after load, 3ms
+2020-06-16 00:06:36,109 INFO 1463 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-16 00:06:36,109 INFO 1463 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-16 00:06:36,110 INFO 1463 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-16 00:06:36,110 INFO 1463 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-16 00:06:36,110 INFO 1463 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-16 00:06:36,110 INFO 1463 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-16 00:06:36,111 INFO 1463 [egg-watcher:agent] watcher start success
+2020-06-16 00:06:36,132 INFO 1463 [egg:core] dump config after ready, 11ms
+2020-06-16 00:11:18,567 INFO 1463 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1838,"blocks":8,"atimeMs":1592237170377.6487,"mtimeMs":1592237478501.851,"ctimeMs":1592237478501.851,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:06:10.378Z","mtime":"2020-06-15T16:11:18.502Z","ctime":"2020-06-15T16:11:18.502Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:11:18,714 INFO 1463 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1838,"blocks":8,"atimeMs":1592237478701.5044,"mtimeMs":1592237478702.1702,"ctimeMs":1592237478702.1702,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:11:18.702Z","mtime":"2020-06-15T16:11:18.702Z","ctime":"2020-06-15T16:11:18.702Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:11:18,765 INFO 1463 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1838,"blocks":8,"atimeMs":1592237478701.5044,"mtimeMs":1592237478702.1702,"ctimeMs":1592237478702.1702,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:11:18.702Z","mtime":"2020-06-15T16:11:18.702Z","ctime":"2020-06-15T16:11:18.702Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:11:19,173 WARN 1463 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-16 00:11:18,920 INFO 1463 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1838,"blocks":8,"atimeMs":1592237478908.3936,"mtimeMs":1592237478908.985,"ctimeMs":1592237478908.985,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:11:18.908Z","mtime":"2020-06-15T16:11:18.909Z","ctime":"2020-06-15T16:11:18.909Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:11:18,970 INFO 1463 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1838,"blocks":8,"atimeMs":1592237478908.3936,"mtimeMs":1592237478908.985,"ctimeMs":1592237478908.985,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:11:18.908Z","mtime":"2020-06-15T16:11:18.909Z","ctime":"2020-06-15T16:11:18.909Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:11:40,587 INFO 1639 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-16 00:11:40,593 INFO 1639 [egg:core] dump config after load, 3ms
+2020-06-16 00:11:40,629 INFO 1639 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-16 00:11:40,629 INFO 1639 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-16 00:11:40,629 INFO 1639 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-16 00:11:40,629 INFO 1639 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-16 00:11:40,629 INFO 1639 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-16 00:11:40,629 INFO 1639 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-16 00:11:40,630 INFO 1639 [egg-watcher:agent] watcher start success
+2020-06-16 00:11:40,639 INFO 1639 [egg:core] dump config after ready, 4ms
+2020-06-16 00:12:44,633 WARN 1639 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/controller/user.js change
+2020-06-16 00:12:44,429 INFO 1639 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1032,"blocks":8,"atimeMs":1592234393015.3872,"mtimeMs":1592237564365.1592,"ctimeMs":1592237564365.1592,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T15:19:53.015Z","mtime":"2020-06-15T16:12:44.365Z","ctime":"2020-06-15T16:12:44.365Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:12:44,710 INFO 1639 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1032,"blocks":8,"atimeMs":1592237564699.0454,"mtimeMs":1592237564699.424,"ctimeMs":1592237564699.424,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:12:44.699Z","mtime":"2020-06-15T16:12:44.699Z","ctime":"2020-06-15T16:12:44.699Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:12:45,139 WARN 1639 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/controller/user.js change
+2020-06-16 00:12:44,761 INFO 1639 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1032,"blocks":8,"atimeMs":1592237564699.0454,"mtimeMs":1592237564699.424,"ctimeMs":1592237564699.424,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:12:44.699Z","mtime":"2020-06-15T16:12:44.699Z","ctime":"2020-06-15T16:12:44.699Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:12:44,887 INFO 1639 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1032,"blocks":8,"atimeMs":1592237564876.7207,"mtimeMs":1592237564877.0554,"ctimeMs":1592237564877.0554,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:12:44.877Z","mtime":"2020-06-15T16:12:44.877Z","ctime":"2020-06-15T16:12:44.877Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:12:44,937 INFO 1639 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1032,"blocks":8,"atimeMs":1592237564876.7207,"mtimeMs":1592237564877.0554,"ctimeMs":1592237564877.0554,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:12:44.877Z","mtime":"2020-06-15T16:12:44.877Z","ctime":"2020-06-15T16:12:44.877Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:12:53,498 INFO 1725 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-16 00:12:53,504 INFO 1725 [egg:core] dump config after load, 3ms
+2020-06-16 00:12:53,537 INFO 1725 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-16 00:12:53,537 INFO 1725 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-16 00:12:53,537 INFO 1725 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-16 00:12:53,537 INFO 1725 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-16 00:12:53,537 INFO 1725 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-16 00:12:53,537 INFO 1725 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-16 00:12:53,537 INFO 1725 [egg-watcher:agent] watcher start success
+2020-06-16 00:12:53,546 INFO 1725 [egg:core] dump config after ready, 3ms
+2020-06-16 00:14:23,264 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1841,"blocks":8,"atimeMs":1592237480213.5757,"mtimeMs":1592237663200.3015,"ctimeMs":1592237663200.3015,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:11:20.214Z","mtime":"2020-06-15T16:14:23.200Z","ctime":"2020-06-15T16:14:23.200Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:14:23,432 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1841,"blocks":8,"atimeMs":1592237663420.0437,"mtimeMs":1592237663420.7434,"ctimeMs":1592237663420.7434,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:14:23.420Z","mtime":"2020-06-15T16:14:23.421Z","ctime":"2020-06-15T16:14:23.421Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:14:23,483 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1841,"blocks":8,"atimeMs":1592237663420.0437,"mtimeMs":1592237663420.7434,"ctimeMs":1592237663420.7434,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:14:23.420Z","mtime":"2020-06-15T16:14:23.421Z","ctime":"2020-06-15T16:14:23.421Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:14:23,632 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1841,"blocks":8,"atimeMs":1592237663618.8403,"mtimeMs":1592237663620.071,"ctimeMs":1592237663620.071,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:14:23.619Z","mtime":"2020-06-15T16:14:23.620Z","ctime":"2020-06-15T16:14:23.620Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:14:23,683 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1841,"blocks":8,"atimeMs":1592237663618.8403,"mtimeMs":1592237663620.071,"ctimeMs":1592237663620.071,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:14:23.619Z","mtime":"2020-06-15T16:14:23.620Z","ctime":"2020-06-15T16:14:23.620Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:14:23,884 WARN 1725 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-16 00:15:17,168 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1145,"blocks":8,"atimeMs":1592237565900.804,"mtimeMs":1592237717106.712,"ctimeMs":1592237717106.712,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:12:45.901Z","mtime":"2020-06-15T16:15:17.107Z","ctime":"2020-06-15T16:15:17.107Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:15:17,347 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1145,"blocks":8,"atimeMs":1592237717335.3066,"mtimeMs":1592237717335.9429,"ctimeMs":1592237717335.9429,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:15:17.335Z","mtime":"2020-06-15T16:15:17.336Z","ctime":"2020-06-15T16:15:17.336Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:15:17,398 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1145,"blocks":8,"atimeMs":1592237717335.3066,"mtimeMs":1592237717335.9429,"ctimeMs":1592237717335.9429,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:15:17.335Z","mtime":"2020-06-15T16:15:17.336Z","ctime":"2020-06-15T16:15:17.336Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:15:17,515 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1145,"blocks":8,"atimeMs":1592237717502.3525,"mtimeMs":1592237717503.443,"ctimeMs":1592237717503.443,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:15:17.502Z","mtime":"2020-06-15T16:15:17.503Z","ctime":"2020-06-15T16:15:17.503Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:15:17,566 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1145,"blocks":8,"atimeMs":1592237717502.3525,"mtimeMs":1592237717503.443,"ctimeMs":1592237717503.443,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:15:17.502Z","mtime":"2020-06-15T16:15:17.503Z","ctime":"2020-06-15T16:15:17.503Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:15:17,710 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1145,"blocks":8,"atimeMs":1592237717698.6318,"mtimeMs":1592237717699.7659,"ctimeMs":1592237717699.7659,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:15:17.699Z","mtime":"2020-06-15T16:15:17.700Z","ctime":"2020-06-15T16:15:17.700Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:15:17,762 INFO 1725 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1145,"blocks":8,"atimeMs":1592237717698.6318,"mtimeMs":1592237717699.7659,"ctimeMs":1592237717699.7659,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:15:17.699Z","mtime":"2020-06-15T16:15:17.700Z","ctime":"2020-06-15T16:15:17.700Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 00:15:17,964 WARN 1725 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/controller/user.js change
+2020-06-16 00:15:25,732 INFO 1862 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-16 00:15:25,739 INFO 1862 [egg:core] dump config after load, 3ms
+2020-06-16 00:15:25,776 INFO 1862 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-16 00:15:25,776 INFO 1862 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-16 00:15:25,777 INFO 1862 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-16 00:15:25,777 INFO 1862 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-16 00:15:25,777 INFO 1862 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-16 00:15:25,777 INFO 1862 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-16 00:15:25,777 INFO 1862 [egg-watcher:agent] watcher start success
+2020-06-16 00:15:25,789 INFO 1862 [egg:core] dump config after ready, 6ms
+2020-06-16 01:06:08,479 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 2281197ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 04:33:58,040 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 12429539ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 04:39:39,759 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 04:45:01,494 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301713ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 04:50:43,181 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 04:56:24,889 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301690ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 05:02:06,613 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301694ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 05:07:28,353 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 06:55:44,332 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 6455953ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 07:01:26,070 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301707ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 07:29:34,715 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301691ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 09:10:11,517 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 6016779ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 09:26:14,100 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 942538ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 09:41:27,068 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 872913ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 09:46:37,152 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 250042ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 20:00:14,697 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 36797503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 20:02:47,170 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 152465ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 20:17:38,638 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 891462ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 20:32:47,816 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 909114ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 21:11:16,568 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 2308748ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 22:34:23,081 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 4986511ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-16 23:23:07,315 WARN 1862 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/router.js change
+2020-06-16 23:23:06,884 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":346,"blocks":8,"atimeMs":1592232164357.4382,"mtimeMs":1592320986815.6792,"ctimeMs":1592320986815.6792,"birthtimeMs":1591016659547.4873,"atime":"2020-06-15T14:42:44.357Z","mtime":"2020-06-16T15:23:06.816Z","ctime":"2020-06-16T15:23:06.816Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 23:23:07,057 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":346,"blocks":8,"atimeMs":1592320987046.4539,"mtimeMs":1592320987046.973,"ctimeMs":1592320987046.973,"birthtimeMs":1591016659547.4873,"atime":"2020-06-16T15:23:07.046Z","mtime":"2020-06-16T15:23:07.047Z","ctime":"2020-06-16T15:23:07.047Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 23:23:07,108 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":346,"blocks":8,"atimeMs":1592320987046.4539,"mtimeMs":1592320987046.973,"ctimeMs":1592320987046.973,"birthtimeMs":1591016659547.4873,"atime":"2020-06-16T15:23:07.046Z","mtime":"2020-06-16T15:23:07.047Z","ctime":"2020-06-16T15:23:07.047Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 23:24:22,222 WARN 1862 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/controller/user.js change
+2020-06-16 23:24:21,838 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1257,"blocks":8,"atimeMs":1592237718755.6812,"mtimeMs":1592321061776.0515,"ctimeMs":1592321061776.0515,"birthtimeMs":1591018422329.8455,"atime":"2020-06-15T16:15:18.756Z","mtime":"2020-06-16T15:24:21.776Z","ctime":"2020-06-16T15:24:21.776Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 23:24:21,965 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1257,"blocks":8,"atimeMs":1592321061953.0474,"mtimeMs":1592321061953.649,"ctimeMs":1592321061953.649,"birthtimeMs":1591018422329.8455,"atime":"2020-06-16T15:24:21.953Z","mtime":"2020-06-16T15:24:21.954Z","ctime":"2020-06-16T15:24:21.954Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-16 23:24:22,016 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1257,"blocks":8,"atimeMs":1592321061953.0474,"mtimeMs":1592321061953.649,"ctimeMs":1592321061953.649,"birthtimeMs":1591018422329.8455,"atime":"2020-06-16T15:24:21.953Z","mtime":"2020-06-16T15:24:21.954Z","ctime":"2020-06-16T15:24:21.954Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 00:01:39,685 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 435571ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 00:07:01,377 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301637ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 00:12:43,090 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301696ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 00:18:24,818 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301707ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 00:24:06,526 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301681ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 00:29:28,224 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301678ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 01:05:23,602 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 2115360ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 01:11:05,322 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 01:16:47,044 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301694ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 01:22:08,757 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301686ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 01:27:50,511 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301739ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 01:33:32,262 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301729ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 01:39:13,971 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301680ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 03:27:09,750 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 6455760ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 03:44:14,927 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301718ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 03:49:36,986 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 302039ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 03:55:18,698 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 04:01:00,405 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301690ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 05:49:15,690 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 6455263ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 05:54:57,427 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301700ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 06:00:19,153 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 06:06:00,920 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301743ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 06:11:42,626 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301688ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 06:17:04,987 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 302338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 06:22:46,721 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301713ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 07:49:58,797 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 5192057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 08:06:00,655 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 08:11:42,375 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301702ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 08:13:10,037 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 67644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 08:18:31,678 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 301632ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 08:21:38,345 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 166645ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 08:39:01,204 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 1042837ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 11:49:30,533 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 11409219ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 11:54:36,217 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 305651ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 13:08:29,252 ERROR 1862 nodejs.ClusterClientNoResponseError: client no response in 4433017ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1862
+hostname: 192.168.0.115
+
+2020-06-17 13:09:54,737 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1821,"blocks":8,"atimeMs":1592237664833.964,"mtimeMs":1592370594669.137,"ctimeMs":1592370594669.137,"birthtimeMs":1591019581915.4868,"atime":"2020-06-15T16:14:24.834Z","mtime":"2020-06-17T05:09:54.669Z","ctime":"2020-06-17T05:09:54.669Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 13:09:55,402 WARN 1862 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-17 13:09:54,942 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1821,"blocks":8,"atimeMs":1592370594929.991,"mtimeMs":1592370594930.7751,"ctimeMs":1592370594930.7751,"birthtimeMs":1591019581915.4868,"atime":"2020-06-17T05:09:54.930Z","mtime":"2020-06-17T05:09:54.931Z","ctime":"2020-06-17T05:09:54.931Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 13:09:54,992 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1821,"blocks":8,"atimeMs":1592370594929.991,"mtimeMs":1592370594930.7751,"ctimeMs":1592370594930.7751,"birthtimeMs":1591019581915.4868,"atime":"2020-06-17T05:09:54.930Z","mtime":"2020-06-17T05:09:54.931Z","ctime":"2020-06-17T05:09:54.931Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 13:09:55,149 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1821,"blocks":8,"atimeMs":1592370595135.5513,"mtimeMs":1592370595137.5334,"ctimeMs":1592370595137.5334,"birthtimeMs":1591019581915.4868,"atime":"2020-06-17T05:09:55.136Z","mtime":"2020-06-17T05:09:55.138Z","ctime":"2020-06-17T05:09:55.138Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 13:09:55,200 INFO 1862 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":1821,"blocks":8,"atimeMs":1592370595135.5513,"mtimeMs":1592370595137.5334,"ctimeMs":1592370595137.5334,"birthtimeMs":1591019581915.4868,"atime":"2020-06-17T05:09:55.136Z","mtime":"2020-06-17T05:09:55.138Z","ctime":"2020-06-17T05:09:55.138Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 13:10:03,274 INFO 8558 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-17 13:10:03,280 INFO 8558 [egg:core] dump config after load, 3ms
+2020-06-17 13:10:03,314 INFO 8558 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-17 13:10:03,314 INFO 8558 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-17 13:10:03,314 INFO 8558 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-17 13:10:03,314 INFO 8558 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-17 13:10:03,314 INFO 8558 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-17 13:10:03,315 INFO 8558 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-17 13:10:03,315 INFO 8558 [egg-watcher:agent] watcher start success
+2020-06-17 13:10:03,324 INFO 8558 [egg:core] dump config after ready, 3ms
+2020-06-17 13:31:29,077 INFO 9103 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-17 13:31:29,084 INFO 9103 [egg:core] dump config after load, 3ms
+2020-06-17 13:31:29,120 INFO 9103 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-17 13:31:29,120 INFO 9103 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-17 13:31:29,120 INFO 9103 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-17 13:31:29,120 INFO 9103 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-17 13:31:29,120 INFO 9103 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-17 13:31:29,120 INFO 9103 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-17 13:31:29,120 INFO 9103 [egg-watcher:agent] watcher start success
+2020-06-17 13:31:29,128 INFO 9103 [egg:core] dump config after ready, 3ms
+2020-06-17 13:33:28,721 INFO 9153 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-17 13:33:28,727 INFO 9153 [egg:core] dump config after load, 3ms
+2020-06-17 13:33:28,767 INFO 9153 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-17 13:33:28,767 INFO 9153 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-17 13:33:28,767 INFO 9153 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-17 13:33:28,768 INFO 9153 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-17 13:33:28,768 INFO 9153 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-17 13:33:28,768 INFO 9153 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-17 13:33:28,768 INFO 9153 [egg-watcher:agent] watcher start success
+2020-06-17 13:33:28,777 INFO 9153 [egg:core] dump config after ready, 4ms
+2020-06-17 13:34:27,939 INFO 9183 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-17 13:34:27,945 INFO 9183 [egg:core] dump config after load, 3ms
+2020-06-17 13:34:27,971 INFO 9183 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-17 13:34:27,971 INFO 9183 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-17 13:34:27,971 INFO 9183 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-17 13:34:27,971 INFO 9183 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-17 13:34:27,971 INFO 9183 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-17 13:34:27,971 INFO 9183 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-17 13:34:27,971 INFO 9183 [egg-watcher:agent] watcher start success
+2020-06-17 13:34:27,980 INFO 9183 [egg:core] dump config after ready, 4ms
+2020-06-17 16:48:02,753 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 10993090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 18:36:10,288 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 6487530ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 19:13:05,010 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 2214719ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 19:27:56,126 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 891111ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 19:43:06,286 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 910158ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 19:50:12,394 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 426104ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 19:52:03,509 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 111106ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 19:53:28,595 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 85078ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 20:34:45,723 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 616670ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 22:40:30,200 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301622ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 22:46:11,901 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301669ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 22:50:27,910 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 235987ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 23:20:09,650 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 61105ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 23:25:56,483 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 306819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 23:31:38,196 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 23:37:20,038 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301808ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 23:42:41,783 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301724ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-17 23:54:05,207 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301703ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 00:27:42,317 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 1977091ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 01:12:44,975 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 01:18:06,793 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301798ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 01:23:48,555 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301738ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 01:29:35,400 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 306824ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 01:35:17,177 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 01:40:38,935 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301734ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 02:13:59,980 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 1961025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 02:25:23,431 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301693ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 02:31:05,195 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301746ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 02:36:46,943 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 02:42:28,685 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301720ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 02:47:50,364 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301670ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 03:28:30,776 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 2400391ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 03:34:32,537 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301730ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 03:39:54,236 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 03:45:35,947 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301688ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 03:51:17,690 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301727ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 03:56:40,028 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 302320ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 04:02:21,742 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301699ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 04:38:27,060 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 2125303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 04:44:08,781 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 04:49:50,499 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301697ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 04:55:32,210 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 05:01:13,892 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301664ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 05:06:35,697 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301795ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 05:48:14,654 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 2117226ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 05:54:56,409 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301709ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 06:00:38,116 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 06:06:19,892 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301756ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 06:12:01,582 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301668ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 06:17:23,271 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301680ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 06:23:05,007 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 301717ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 06:35:20,970 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 695949ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 07:44:25,809 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 184133ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 07:46:00,105 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 71163ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 08:07:41,384 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 1301277ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 08:11:47,519 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 246131ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 09:51:43,760 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 5996232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 19:07:02,863 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 31893676ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 19:22:16,828 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 873927ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 19:28:37,678 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 340808ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 19:30:04,955 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 87260ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 19:45:48,523 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 943564ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 21:34:57,544 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 6529036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 21:52:01,178 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 943579ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 21:55:59,330 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 238148ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 22:00:59,641 ERROR 9183 nodejs.ClusterClientNoResponseError: client no response in 60272ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiang/code/yuechen/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 9183
+hostname: wangdeMacBook-Pro.local
+
+2020-06-18 22:09:56,689 INFO 17867 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-18 22:09:56,695 INFO 17867 [egg:core] dump config after load, 3ms
+2020-06-18 22:09:56,731 INFO 17867 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-18 22:09:56,731 INFO 17867 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-18 22:09:56,732 INFO 17867 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-18 22:09:56,732 INFO 17867 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-18 22:09:56,732 INFO 17867 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-18 22:09:56,732 INFO 17867 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-18 22:09:56,732 INFO 17867 [egg-watcher:agent] watcher start success
+2020-06-18 22:09:56,741 INFO 17867 [egg:core] dump config after ready, 4ms
+2020-06-18 22:37:25,700 WARN 17867 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/router.js change
+2020-06-18 22:37:25,351 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":376,"blocks":8,"atimeMs":1592320989024.2122,"mtimeMs":1592491045288.2195,"ctimeMs":1592491045288.2195,"birthtimeMs":1591016659547.4873,"atime":"2020-06-16T15:23:09.024Z","mtime":"2020-06-18T14:37:25.288Z","ctime":"2020-06-18T14:37:25.288Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:37:25,447 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":376,"blocks":8,"atimeMs":1592491045435.471,"mtimeMs":1592491045435.9312,"ctimeMs":1592491045435.9312,"birthtimeMs":1591016659547.4873,"atime":"2020-06-18T14:37:25.435Z","mtime":"2020-06-18T14:37:25.436Z","ctime":"2020-06-18T14:37:25.436Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:37:25,498 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":376,"blocks":8,"atimeMs":1592491045435.471,"mtimeMs":1592491045435.9312,"ctimeMs":1592491045435.9312,"birthtimeMs":1591016659547.4873,"atime":"2020-06-18T14:37:25.435Z","mtime":"2020-06-18T14:37:25.436Z","ctime":"2020-06-18T14:37:25.436Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:40:35,202 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":502,"blocks":8,"atimeMs":1592491045992.9116,"mtimeMs":1592491235141.9424,"ctimeMs":1592491235141.9424,"birthtimeMs":1591016659547.4873,"atime":"2020-06-18T14:37:25.993Z","mtime":"2020-06-18T14:40:35.142Z","ctime":"2020-06-18T14:40:35.142Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:40:35,379 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":502,"blocks":8,"atimeMs":1592491235366.6978,"mtimeMs":1592491235367.3535,"ctimeMs":1592491235367.3535,"birthtimeMs":1591016659547.4873,"atime":"2020-06-18T14:40:35.367Z","mtime":"2020-06-18T14:40:35.367Z","ctime":"2020-06-18T14:40:35.367Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:40:35,822 WARN 17867 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/router.js change
+2020-06-18 22:40:35,429 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":502,"blocks":8,"atimeMs":1592491235366.6978,"mtimeMs":1592491235367.3535,"ctimeMs":1592491235367.3535,"birthtimeMs":1591016659547.4873,"atime":"2020-06-18T14:40:35.367Z","mtime":"2020-06-18T14:40:35.367Z","ctime":"2020-06-18T14:40:35.367Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:40:35,565 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":502,"blocks":8,"atimeMs":1592491235554.2788,"mtimeMs":1592491235555.0112,"ctimeMs":1592491235555.0112,"birthtimeMs":1591016659547.4873,"atime":"2020-06-18T14:40:35.554Z","mtime":"2020-06-18T14:40:35.555Z","ctime":"2020-06-18T14:40:35.555Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:40:35,617 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/router.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2927796,"size":502,"blocks":8,"atimeMs":1592491235554.2788,"mtimeMs":1592491235555.0112,"ctimeMs":1592491235555.0112,"birthtimeMs":1591016659547.4873,"atime":"2020-06-18T14:40:35.554Z","mtime":"2020-06-18T14:40:35.555Z","ctime":"2020-06-18T14:40:35.555Z","birthtime":"2020-06-01T13:04:19.547Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:42:39,231 WARN 17867 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/controller/user.js change
+2020-06-18 22:42:38,847 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1849,"blocks":8,"atimeMs":1592321063233.874,"mtimeMs":1592491358785.309,"ctimeMs":1592491358785.309,"birthtimeMs":1591018422329.8455,"atime":"2020-06-16T15:24:23.234Z","mtime":"2020-06-18T14:42:38.785Z","ctime":"2020-06-18T14:42:38.785Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:42:38,975 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1849,"blocks":8,"atimeMs":1592491358963.4888,"mtimeMs":1592491358964.2349,"ctimeMs":1592491358964.2349,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T14:42:38.963Z","mtime":"2020-06-18T14:42:38.964Z","ctime":"2020-06-18T14:42:38.964Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:42:39,025 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1849,"blocks":8,"atimeMs":1592491358963.4888,"mtimeMs":1592491358964.2349,"ctimeMs":1592491358964.2349,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T14:42:38.963Z","mtime":"2020-06-18T14:42:38.964Z","ctime":"2020-06-18T14:42:38.964Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 22:57:16,183 WARN 17867 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/service/user.js change
+2020-06-18 22:57:15,979 INFO 17867 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/service/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2974118,"size":2631,"blocks":8,"atimeMs":1592370596998.7378,"mtimeMs":1592492235920.7852,"ctimeMs":1592492235920.7852,"birthtimeMs":1591019581915.4868,"atime":"2020-06-17T05:09:56.999Z","mtime":"2020-06-18T14:57:15.921Z","ctime":"2020-06-18T14:57:15.921Z","birthtime":"2020-06-01T13:53:01.915Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:12:25,215 INFO 19269 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-18 23:12:25,221 INFO 19269 [egg:core] dump config after load, 3ms
+2020-06-18 23:12:25,259 INFO 19269 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-18 23:12:25,259 INFO 19269 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-18 23:12:25,259 INFO 19269 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-18 23:12:25,260 INFO 19269 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-18 23:12:25,260 INFO 19269 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-18 23:12:25,260 INFO 19269 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-18 23:12:25,260 INFO 19269 [egg-watcher:agent] watcher start success
+2020-06-18 23:12:25,271 INFO 19269 [egg:core] dump config after ready, 3ms
+2020-06-18 23:19:14,141 INFO 19269 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1946,"blocks":8,"atimeMs":1592491361141.5667,"mtimeMs":1592493554079.3088,"ctimeMs":1592493554079.3088,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T14:42:41.142Z","mtime":"2020-06-18T15:19:14.079Z","ctime":"2020-06-18T15:19:14.079Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:19:14,317 INFO 19269 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1946,"blocks":8,"atimeMs":1592493554305.8347,"mtimeMs":1592493554306.6265,"ctimeMs":1592493554306.6265,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:19:14.306Z","mtime":"2020-06-18T15:19:14.307Z","ctime":"2020-06-18T15:19:14.307Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:19:14,983 WARN 19269 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/controller/user.js change
+2020-06-18 23:19:14,368 INFO 19269 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1946,"blocks":8,"atimeMs":1592493554305.8347,"mtimeMs":1592493554306.6265,"ctimeMs":1592493554306.6265,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:19:14.306Z","mtime":"2020-06-18T15:19:14.307Z","ctime":"2020-06-18T15:19:14.307Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:19:14,518 INFO 19269 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1946,"blocks":8,"atimeMs":1592493554506.3225,"mtimeMs":1592493554507.575,"ctimeMs":1592493554507.575,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:19:14.506Z","mtime":"2020-06-18T15:19:14.508Z","ctime":"2020-06-18T15:19:14.508Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:19:14,568 INFO 19269 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1946,"blocks":8,"atimeMs":1592493554506.3225,"mtimeMs":1592493554507.575,"ctimeMs":1592493554507.575,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:19:14.506Z","mtime":"2020-06-18T15:19:14.508Z","ctime":"2020-06-18T15:19:14.508Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:19:14,727 INFO 19269 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1946,"blocks":8,"atimeMs":1592493554715.0251,"mtimeMs":1592493554716.3782,"ctimeMs":1592493554716.3782,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:19:14.715Z","mtime":"2020-06-18T15:19:14.716Z","ctime":"2020-06-18T15:19:14.716Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:19:14,777 INFO 19269 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1946,"blocks":8,"atimeMs":1592493554715.0251,"mtimeMs":1592493554716.3782,"ctimeMs":1592493554716.3782,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:19:14.715Z","mtime":"2020-06-18T15:19:14.716Z","ctime":"2020-06-18T15:19:14.716Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:20:09,252 INFO 19514 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiang/code/yuechen/logs/yuechen","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"yuechen-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-18 23:20:09,258 INFO 19514 [egg:core] dump config after load, 3ms
+2020-06-18 23:20:09,294 INFO 19514 [egg-watcher] Start watching: ["/Users/wangjiang/code/yuechen/app","/Users/wangjiang/code/yuechen/config","/Users/wangjiang/code/yuechen/mocks","/Users/wangjiang/code/yuechen/mocks_proxy","/Users/wangjiang/code/yuechen/app.js"]
+2020-06-18 23:20:09,294 INFO 19514 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app"
+2020-06-18 23:20:09,294 INFO 19514 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/config"
+2020-06-18 23:20:09,295 INFO 19514 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks"
+2020-06-18 23:20:09,295 INFO 19514 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/mocks_proxy"
+2020-06-18 23:20:09,295 INFO 19514 [egg-watcher] Start watching: "/Users/wangjiang/code/yuechen/app.js"
+2020-06-18 23:20:09,295 INFO 19514 [egg-watcher:agent] watcher start success
+2020-06-18 23:20:09,303 INFO 19514 [egg:core] dump config after ready, 3ms
+2020-06-18 23:21:00,305 INFO 19514 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1947,"blocks":8,"atimeMs":1592493556473.759,"mtimeMs":1592493660242.432,"ctimeMs":1592493660242.432,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:19:16.474Z","mtime":"2020-06-18T15:21:00.242Z","ctime":"2020-06-18T15:21:00.242Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:21:00,924 WARN 19514 [agent:development] reload worker because /Users/wangjiang/code/yuechen/app/controller/user.js change
+2020-06-18 23:21:00,487 INFO 19514 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1947,"blocks":8,"atimeMs":1592493660475.2,"mtimeMs":1592493660475.9695,"ctimeMs":1592493660475.9695,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:21:00.475Z","mtime":"2020-06-18T15:21:00.476Z","ctime":"2020-06-18T15:21:00.476Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:21:00,537 INFO 19514 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1947,"blocks":8,"atimeMs":1592493660475.2,"mtimeMs":1592493660475.9695,"ctimeMs":1592493660475.9695,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:21:00.475Z","mtime":"2020-06-18T15:21:00.476Z","ctime":"2020-06-18T15:21:00.476Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:21:00,668 INFO 19514 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1947,"blocks":8,"atimeMs":1592493660656.0706,"mtimeMs":1592493660657.2568,"ctimeMs":1592493660657.2568,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:21:00.656Z","mtime":"2020-06-18T15:21:00.657Z","ctime":"2020-06-18T15:21:00.657Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-18 23:21:00,719 INFO 19514 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wangjiang/code/yuechen/app/controller/user.js","stat":{"dev":16777221,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2973330,"size":1947,"blocks":8,"atimeMs":1592493660656.0706,"mtimeMs":1592493660657.2568,"ctimeMs":1592493660657.2568,"birthtimeMs":1591018422329.8455,"atime":"2020-06-18T15:21:00.656Z","mtime":"2020-06-18T15:21:00.657Z","ctime":"2020-06-18T15:21:00.657Z","birthtime":"2020-06-01T13:33:42.330Z"},"remove":false,"isDirectory":false,"isFile":true}
